@@ -4,6 +4,7 @@ A repository for the code written for my thesis (paper forthcoming).
 ## Methods (draft)
 *Based on Seth Adams' Audio Classification github repository.*[^1]
 This section describes the methods used to develop the classifier:
+
 **Download and Extract Data**
 - Load audio (.wav)
 
@@ -22,6 +23,7 @@ This section describes the methods used to develop the classifier:
         - If none exists, create directory
 
 **Build Model**
+
 This sections hosts the documentation of the following models based in TensorFlow, Keras, and SKLearn (*models are based on Evan Radkoff's Drum Sound Classification repository*[^3]):
 - Random Forest (RF)
 - K-Nearest Neighbors (KNN)
@@ -32,9 +34,11 @@ This sections hosts the documentation of the following models based in TensorFlo
 - CNN + SVM
 
 **Train Model**
+
 This section focuses on scanning the directory and preparing a list of all the audio file paths, extracting the class label from each file name or from the name of the parent sub-folder, and mapping each class name from text to a numerical class ID.
 
 **Perform Inference**
+
 This section will describe the usage of this model against previously unseen data.
 
 [^1]: [Audio Classification Repository](https://github.com/seth814/Audio-Classification/)
